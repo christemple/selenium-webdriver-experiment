@@ -1,0 +1,17 @@
+{
+  "name": "selenium-webdriver-experiment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^2.41.0",
+    "cucumber": "^4.2.1",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}
