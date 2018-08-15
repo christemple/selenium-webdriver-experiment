@@ -23,6 +23,7 @@ if (username && accessKey) {
     )
     .build();
 } else {
+  setDefaultTimeout(10 * 1000);
   driver = new Webdriver.Builder().forBrowser("chrome").build();
 }
 
